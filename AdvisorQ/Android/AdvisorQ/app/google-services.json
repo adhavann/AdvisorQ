@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "849819791543",
+    "firebase_url": "https://advisorq-6a062.firebaseio.com",
+    "project_id": "advisorq-6a062",
+    "storage_bucket": "advisorq-6a062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849819791543:android:7cb88d0a86f0789f",
+        "android_client_info": {
+          "package_name": "com.example.chinthanbhat.advisorq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849819791543-0iepkj8jc9bsa84m52j1lp3qnic9ncce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSLV2xT6lgg10-fa8rIhzz8xY36NlfkJA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

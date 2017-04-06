@@ -1,0 +1,106 @@
+<!-- PROJECT: AdvisorQ  - CSE6349 Advanced Computer Networks -->
+<!-- FUNCTION: LogIn page for the Web Application --> 
+
+<?php
+include('login.php'); // Includes Login Script
+
+if(isset($_SESSION['login_user'])){
+echo "Session already there"
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>AdvisorQ</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <div style="height: 100vh">
+        <div class="flex-center">
+
+            <form action="login.php" method="POST">
+            <!--Form without header-->
+            <div class="card">
+                <div class="card-block">
+
+                    <!--Header-->
+                    <div class="text-xs-center">
+                        <h3><i class="fa fa-lock"></i> Login:</h3>
+                        <hr class="mt-2 mb-2">
+                    </div>
+
+                    <!--Body-->
+                    <div class="md-form">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" name="mailid" class="form-control">
+                        <label for="form2">Your Username</label>
+                    </div>
+
+                    <div class="md-form">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" name="password" class="form-control">
+                        <label for="form4">Your password</label>
+                    </div>
+
+                    <div class="text-xs-center">
+                        <button class="btn btn-deep-purple" name="submit">Login</button>
+                    </div>
+
+                </div>
+                </form>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options">
+                        <p>Not a member? <a href="register.html">Sign Up</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <!--/Form without header-->
+
+        </div>
+    </div>
+
+    <!-- /Start your project here-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+</body>
+
+</html>
