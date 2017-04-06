@@ -1,0 +1,36 @@
+// ADVISORQ
+
+FEATURES OF ADVISORQ:
+1) Offline Registration into the Advisor Queue
+2) Queue Status is being changed by sensing SensorTag
+3) Real-Time Queue Listing
+4) Responsive web Application for the Advisor 
+5) PUSH NOTIFICAION sent through WebApp to Android Devices     
+
+TECHNOLOGIES:
+
+1) Amazon Web Services - MySQL for the Database
+2) Amazon Web Services - EC2 for hosting the Web Application
+3) Google/Firebase Cloud Messaging - For the PUSH NOTIFICAION
+4) Bootstrap - For the Responsive Web Application
+
+CHALLENGES FACED:
+
+1) Implementing "Google Cloud Messaging" and "Firebase" for the PUSH NOTIFICAION to the User.
+2) Making HTTP POST for the DB connectivity without encoding data in the URL (Privacy Purpose).
+3) Making the GUI better 
+
+// MODULES
+
+Module-1  Android Application
+
+Uses : The User is able to register for the Advising Session by entering the Details and once the person came to the ERB he can click on "Already Registered"
+so he will directed to the page where it prompts for UTA ID. Once he entered he will added to the Queue to meet Advisor.  
+
+Module-2 Web Application
+
+Uses : The Advisor can able to view the persons waiting to meet him and can ask the person to GET IN through Notification
+
+Module-3 AWS MySQL
+
+Uses : The database where the details of the student is stored   
